@@ -14,7 +14,7 @@
 |curl -X POST -d '{"search":"london"}' -H 'Content- Type: application/json' http://<SERVER_IP>: <PORT>/search.php
 Send POST request with JSON data|Send POST request with JSON data|
 
-###APIs
+## APIs
 
 |Command|Description|
 |:---|---|
