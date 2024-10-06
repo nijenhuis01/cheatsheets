@@ -3,6 +3,7 @@
 
 |Command|Description|
 |:---|---|
+|curl -IL site.html|De HTTP-headers van een website opvragen zonder de volledige inhoud van de pagina te downloaden. Dit is nuttig voor het controleren van de statuscodes, het bekijken van de headers, of het volgen van redirects.
 |curl -s -o example.com/index.tml|Download file|
 |curl -k https://inlanefreight.com|Send HEAD request (only prints response headers)|
 |curl http://admin:admin@<SERVER_IP>:<PORT>/|Pass HTTP basic authorization credentials in the URL|
